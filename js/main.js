@@ -19,27 +19,27 @@ function contentLoad(obj){
 }
 
  $(document).ready(function(){  
-     contentLoad(new Content("allProject.html"))
+     contentLoad(new Content("otherPages2/allProject.html"))
 
     $('.link0').click(function(){  
-        contentLoad(new Content("allProject.html")) 
+        contentLoad(new Content("otherPages2/allProject.html")) 
     }); 
 
     $('.link1').click(function(){  
-        contentLoad(new Content("photography.html")) 
+        contentLoad(new Content("otherPages2/photography.html")) 
     });  
       
     $('.link2').click(function(){
-        contentLoad(new Content("webDesign.html"))
+        contentLoad(new Content("otherPages2/webDesign.html"))
     });  
 
     $('.link3').click(function(){
-        contentLoad(new Content("branding.html"))
+        contentLoad(new Content("otherPages2/branding.html"))
 
     });  
 
     $('.link4').click(function(){  
-        contentLoad(new Content("mobileApp.html"))
+        contentLoad(new Content("otherPages2/mobileApp.html"))
     });  
   
       
